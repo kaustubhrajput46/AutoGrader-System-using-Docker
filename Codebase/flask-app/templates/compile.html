@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+   <body>
+<h1></emsp>Here are your submission results:</h1>
+<p>Score: {{Score}} out of 2 correct.</p>
+<p>*************Original submission*************</p>
+      <ul style="list-style-type:none;"> 
+<!-- For loop logic of jinja template -->
+         {%for i in range(0, Length)%} 
+            <li>{{LineList[i]}}</li> 
+         {%endfor%} 
+      </ul> 
+   </body>
+</html>

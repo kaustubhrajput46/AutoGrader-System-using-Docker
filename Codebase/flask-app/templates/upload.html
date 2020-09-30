@@ -1,0 +1,21 @@
+<!doctype html>
+<title>Auto-grader basic system</title>
+<h1>Kaustubh Rajendra Rajput's Autograder</h1>
+<p>
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+	<ul class=flashes>
+	{% for message in messages %}
+	  <li>{{ message }}</li>
+	{% endfor %}
+	</ul>
+  {% endif %}
+{% endwith %}
+</p>
+
+<b>Please select walk.cc</b>
+<form method="post" action="/compile" enctype="multipart/form-data">
+    <input type="file" name="file" autocomplete="off" required>
+    <input type="submit" value="Submit">
+</form>
+
