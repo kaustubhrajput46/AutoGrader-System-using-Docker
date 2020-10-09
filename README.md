@@ -1,8 +1,8 @@
-#Basic AutoGrader System
+# Basic AutoGrader System
 
-##Cloud based scalable auto grader system using Docker.
+## Cloud based scalable auto grader system using Docker.
 
-###Initial setup can be performed like this  
+### Initial setup can be performed like this  
 
 1. Setup t2 Medium Ubuntu Server 16.04 LTS with disk size 20GB using AWS EC2 Service.
 
